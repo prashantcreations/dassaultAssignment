@@ -16,6 +16,11 @@
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>
+	<properties>
+	  <sonar.projectKey>prashantcreations_dassaultAssignment</sonar.projectKey>
+	  <sonar.organization>prashantcreations</sonar.organization>
+	  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+	</properties>		
 	</properties>
 	<dependencies>
 		<dependency>
@@ -49,6 +54,7 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
+			
 		</plugins>
 	</build>
 
